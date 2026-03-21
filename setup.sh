@@ -48,6 +48,10 @@ sed -i.bak "s/permissionset 50100/permissionset $PERMISSIONSET_ID/" app/Training
 # Update launch.json startup object
 sed -i.bak "s/\"startupObjectId\": 50100/\"startupObjectId\": $PAGE_ID/" app/.vscode/launch.json
 
+# Enable deployment (disabled in template to prevent conflicts)
+sed -i.bak 's/"environments": \[\]/"environments": ["training-sandbox"]/' .AL-Go/settings.json
+sed -i.bak 's/"continuousDeployment": false/"continuousDeployment": true/' .AL-Go/settings.json
+
 # Clean up backup files
 find . -name "*.bak" -delete
 
