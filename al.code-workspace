@@ -1,8 +1,13 @@
 {
     "folders": [
         {
+            "path": "app"
+        },
+        {
             "path": ".AL-Go"
         }
     ],
-    "settings": {}
+    "settings": {
+        "al.enableCodeAnalysis": true
+    }
 }
