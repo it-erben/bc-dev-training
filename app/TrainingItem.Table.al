@@ -2,7 +2,7 @@ table 50100 "Training Item"
 {
     Caption = 'Training Item';
     DataClassification = CustomerContent;
-
+// v3
     fields
     {
         field(1; "No."; Integer)
