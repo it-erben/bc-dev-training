@@ -5,9 +5,9 @@
   "appFolders": ["app"],
   "testFolders": [],
   "bcptTestFolders": [],
-  "environments": ["training-sandbox"],
+  "environments": [],
   "DeployTotraining-sandbox": {
     "environmentType": "Sandbox",
-    "continuousDeployment": true
+    "continuousDeployment": false
   }
 }
