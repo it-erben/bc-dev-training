@@ -1,5 +1,5 @@
 # BC Dev Training
-
+test
 Trainings-Repository fuer den Git/GitHub Actions Kurs mit Business Central.
 
 ## Erste Schritte
